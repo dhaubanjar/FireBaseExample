@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#59267C"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/email"
+        android:background="@drawable/roundedittext"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:background="@drawable/roundedittext"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbuttontext"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a User?"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSignup"
+        android:background="@drawable/roundbuttontext"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
